@@ -10,16 +10,19 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 
 ## Specifications
-* The program will return user location.
+* The program will print inputted user location to screen under form.
   * example input: "Baja"
   * example output: "Baja"
-* The program will output the location to H1 element.
-  * example input: "Baja"
-  * example output: "Baja"
-* The program will output Time of Year to an <li> element.
+
+* When user clicks location, program will display location name property in an H element in an area to the right of the form
+  * example input: user clicks on "Baja" below the form
+  * example output: "Baja" appears to the right of the form
+
+* The program will output Time of Year to an <li> element to the right of form
   example input: "Baja; fall"
   example output: "<h1>Baja</h1>; <li>fall</li>"
-* The program will output Things To Do in an <li> element.
+
+* The program will output Things To Do in an <li> element to the right of form.
   example input: "Baja; fall; surf"
   example output: "<h1>Baja</h1>; <li>fall</li>; <li>surf</li>"
 
