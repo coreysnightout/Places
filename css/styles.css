@@ -1,0 +1,8 @@
+#show-location {
+  display: none;
+}
+
+.location {
+  cursor: alias;
+  color: inherit;
+}

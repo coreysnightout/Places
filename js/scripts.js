@@ -23,6 +23,8 @@ $(document).ready(function() {
     $(".location").last().click(function() {
       $("#show-location").show();
       $("#show-location h2").text(newPlace.poop);
+      $(".time-of").text(newPlace.timeOfYear);
+      $(".things-to").text(newPlace.thingsToDo);
     });
 
   });
